@@ -1,0 +1,25 @@
+{
+  "name": "@seventss-sheets/vite",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./react": {
+      "import": "./src/react.mjs"
+    },
+    "./library": {
+      "import": "./src/library.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "deepmerge": "^4.3.1",
+    "vite": "^4.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

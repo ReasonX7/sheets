@@ -1,0 +1,12 @@
+{
+  "name": "@seventss-xl/dev-tools",
+  "version": "0.0.0",
+  "bin": {
+    "sxl": "src/index.mjs"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "lint-staged": "^15.1.0",
+    "find-up": "^7.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@seventss-xl/root",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "sxl lint"
+  },
+  "dependencies": {
+    "@seventss-xl/dev-tools": "*"
+  }
+}
